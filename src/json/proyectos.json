@@ -1,0 +1,22 @@
+[
+    {
+        "Img": "mdApuntes",
+        "Pro": "Mis apuntes",
+        "Tec": "Markdown (.md)",
+        "Des": "Mis apuntes de libreta, capturados en digital",
+        "Link": "Apuntes-MD-"
+    },
+    {
+        "Img": "Captura",
+        "Pro": "dataKey 1.0",
+        "Tec": "HTML, CSS, Js, PHP, miSQL",
+        "Des": "Pagina web promocional de una escuela virtual. Es posible registrarse e iniciar seción",
+        "Link": "Datakey1.0"
+    },{
+        "Img": "Captura2",
+        "Pro": "mi pagina web",
+        "Tec": "HTML, CSS, React js, React icons",
+        "Des": "En esta pagina registrare mis avances en la programación y mostrare mis proyectos favoritos",
+        "Link": "miWeb"
+    }
+]

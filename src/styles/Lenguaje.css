@@ -1,0 +1,47 @@
+.len{
+    box-sizing: border-box;
+    width: 115px;
+    margin: 10px 5px;
+    border: 5px dashed #015;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s;
+    padding: 5px 0;
+}
+.len:hover{
+    width: 120px;
+    margin: 7px;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s;
+    background-color: #ddd;
+    color: #015;
+}
+.len div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.len__img{
+    width: 40%;
+    transition: all .2s;
+}
+.len__sub{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#bar{
+    background-color: #777;
+    width: 100px;
+    height: 6px;
+    display: block;
+
+}
+.len__sub-sub{
+    width: 50px;
+    height: 6px;
+}

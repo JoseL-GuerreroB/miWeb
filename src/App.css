@@ -1,38 +1,206 @@
-.App {
-  text-align: center;
+/* HEADER */
+.header{
+  width: 100%;
+  height: 65px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #015;
+  transition: all .5s;
+  z-index: 5;
+}
+.header>h2{
+  width: 60%;
+  font-size: 25px;
+  margin-left: 50px;
+  color: white;
+}
+.nav{
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin-right: 50px;
+}
+.nav>li{
+  margin: 0 10px;
+  text-decoration: none;
+}
+.nav>li>.nav__link{
+  text-decoration: none;
+  
+  color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.icoNav{
+  font-size: 26px;
+  margin: 5px 10px 0 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.icoNav:hover{
+  box-shadow: 5px 5px 10px #fff, 5px -5px 10px #fff, -5px 5px 10px #fff, -5px -5px 10px #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+/* injicio */
+.divPres{
+  width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-image:url('/public/img/digitization-g82c7b12d5_1280.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.divPres img{
+  width: 160px;
+  border-radius: 50%;
+  height: 190px;
+  filter: contrast(130%);
+}
+.divPres p, .divPres h1, .divPres h2{
+  max-width: 500px;
   color: white;
+  margin-top: 12px;
+  text-align: center;
+  transform: scale(1.2);
+  text-shadow: 0px 5px 5px #000, 0px -5px 5px #000,0px 5px 5px #000, 0px -5px 5px #000;
+}
+.divPres p span{
+  font-weight: 500;
 }
 
-.App-link {
-  color: #61dafb;
+/* Lenguajes */
+.tec{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #111;
+  color: #08f;
+  box-sizing: border-box;
+  padding: 30px 5px;
+}
+.tec h2{
+  margin: 20px 0;
+}
+.tec__leng{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,150px);
+  grid-auto-rows: 150px;
+  justify-items: center;
+  align-items: center;
+}
+/* proyectos */
+.pr{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #111;
+  color: #08f;
+  box-sizing: border-box;
+  padding: 30px 5px;
+}
+.pr h3{
+  font-size: 25px;
+}
+.pr__proy{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pr button{
+  font-size: 20px;
+  margin: 20px;
+  background-color: #015;
+  border: 2px solid #08f;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px;
+}
+.pr>button{
+  font-size: 25px;
+}
+.pr button:hover{
+  box-shadow: 0 0 10px rgba(0, 125, 205);
+}
+#contacto{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+  color: #fff;
+  background-color: #015;
+}
+#contacto h3{
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+#contacto .con__fin{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#contacto .con__fin button{
+  margin: 10px 20px;
+  padding: 10px;
+  font-size: 20px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: black;
+  border: 2px solid #08f;
+  transition: all .1s;
+}
+#contacto .con__fin button:hover{
+  font-size: 25px;
+  background-color: #ddd;
+  box-shadow: 0 0 10px #08f;
+  transition: all .1s;
+}
+#contacto .con__fin button a{
+  text-decoration: none;
+  transition: all .1s;
+  color: #08f;
+}
+#contacto .con__fin button:hover a{
+  color: #015;
+  transition: all .1s;
+  font-weight: 700;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Responsive */
+@media only screen and (max-width:600px){
+  .header h2{
+    font-size: 20px;
+    margin-left: 40px;
   }
-  to {
-    transform: rotate(360deg);
+  .icoNav{
+    font-size: 22px;
+    margin: 5px 5px 0 5px;
+  }
+  .nav li{
+    margin: 0 6px;
+    width: 50px;
+  }
+  .divPres img{
+    width: 140px;
+    border-radius: 50%;
+    height: 170px;
+    filter: contrast(130%);
+  }
+  .divPres p, .divPres h1, .divPres h2{
+    width: 400px;
   }
 }

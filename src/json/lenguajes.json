@@ -1,0 +1,103 @@
+[
+    {
+        "lg": "html-5",
+        "lgn": "HTML5",
+        "lgc": 90,
+        "enUso": true
+    },{
+        "lg": "oreja",
+        "lgn": "Bootstrap",
+        "lgc": 60,
+        "enUso": true
+    },{
+        "lg": "css3",
+        "lgn": "CSS3",
+        "lgc": 85,
+        "enUso": true
+    },{
+        "lg": "sass",
+        "lgn": "SASS",
+        "lgc": 55,
+        "enUso": true
+    },{
+        "lg": "javascript",
+        "lgn": "JavaScript",
+        "lgc": 70,
+        "enUso": true
+    },{
+        "lg": "reactjs",
+        "lgn": "React",
+        "lgc": 70,
+        "enUso": true
+    },{
+        "lg": "typescript",
+        "lgn": "TypeScript",
+        "lgc": 45,
+        "enUso": true
+    },{
+        "lg": "angularjs",
+        "lgn": "Angular",
+        "lgc": 55,
+        "enUso": true
+    },{
+        "lg": "nodejs",
+        "lgn": "NodeJS",
+        "lgc": 60,
+        "enUso": true
+    },{
+        "lg": "vuejs",
+        "lgn": "Vue",
+        "lgc": 0,
+        "enUso": false
+    },{
+        "lg": "php",
+        "lgn": "PHP",
+        "lgc": 50,
+        "enUso": true
+    },{
+        "lg": "laravel",
+        "lgn": "Laravel",
+        "lgc": 0,
+        "enUso": false
+    },{
+        "lg": "symfony",
+        "lgn": "Symfony",
+        "lgc": 0,
+        "enUso": false
+    },{
+        "lg": "mysql",
+        "lgn": "MySQL",
+        "lgc": 60,
+        "enUso": true
+    },{
+        "lg": "mongodb",
+        "lgn": "MongoDB",
+        "lgc": 65,
+        "enUso": true
+    },{
+        "lg": "git",
+        "lgn": "GIT",
+        "lgc": 80,
+        "enUso": true
+    },{
+        "lg": "github",
+        "lgn": "GITHUB",
+        "lgc": 75,
+        "enUso": true
+    },{
+        "lg": "python",
+        "lgn": "Python",
+        "lgc": 35,
+        "enUso": true
+    },{
+        "lg": "java",
+        "lgn": "Java",
+        "lgc": 30,
+        "enUso": true
+    },{
+        "lg": "c-plus-plus",
+        "lgn": "C++",
+        "lgc": 20,
+        "enUso": true
+    }
+]
