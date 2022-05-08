@@ -22,7 +22,7 @@ function App() {
         </ul>
       </header>
       <div id='inicio' className="divPres">
-        <img src="/img/foto.jpg" alt="Foto de perfil" />
+        <img src="/miWeb/img/foto.jpg" alt="Foto de perfil" />
         <p>Hola, mi nombre es:</p>
         <h1>José Luis Guerrero Bautista</h1>
         <h2>Desarrollador Web</h2>
@@ -61,7 +61,7 @@ function App() {
         <h3>Contacto</h3>
         <br />
         <div className="con__fin">
-          <button><a href="/img/FullStack_GBJL.pdf" target="_blank"><FaFilePdf /> Ver mi CV</a></button>
+          <button><a href="/miWeb/img/FullStack_GBJL.pdf" target="_blank"><FaFilePdf /> Ver mi CV</a></button>
           <button><a href="mailto:jose.bautista500lg@gmail.com" target="_blank" rel="noopener noreferrer"><FaEnvelope /> Email</a></button>
           <button><a href="https://github.com/JoseL-GuerreroB" target="_blank" rel="noopener noreferrer"><FaGithub /> Github</a></button>
           <button><a href="https://www.linkedin.com/in/jose-luis-guerrero-bautista-b5b0bb228/" target="_blank" rel="noopener noreferrer"><FaLinkedin /> Linkedin</a></button>

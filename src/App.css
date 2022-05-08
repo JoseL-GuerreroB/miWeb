@@ -47,7 +47,10 @@
 /* injicio */
 .divPres{
   width: 100%;
-  height: 100vh;
+  min-height: min-content;
+  height: 750px;
+  box-sizing: border-box;
+  padding: 120px 0 60px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -96,7 +99,9 @@
   grid-auto-rows: 150px;
   justify-items: center;
   align-items: center;
+  justify-content: center;
 }
+
 /* proyectos */
 .pr{
   width: 100%;
@@ -184,11 +189,11 @@
 @media only screen and (max-width:600px){
   .header h2{
     font-size: 20px;
-    margin-left: 40px;
+    justify-content: flex-start;
   }
   .icoNav{
     font-size: 22px;
-    margin: 5px 5px 0 5px;
+    margin: 0 2px;
   }
   .nav li{
     margin: 0 6px;
@@ -201,6 +206,7 @@
     filter: contrast(130%);
   }
   .divPres p, .divPres h1, .divPres h2{
-    width: 400px;
+    width: 300px;
+    transform: scale(1);
   }
 }

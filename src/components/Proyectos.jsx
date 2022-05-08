@@ -1,6 +1,6 @@
 import '../styles/Proyectos.css';
 export default function Proyectos(prop){
-    var proImg="/img/"+prop.img+".JPG";
+    var proImg="/miWeb/img/"+prop.img+".JPG";
     var link1="https://github.com/JoseL-GuerreroB/"+prop.link;
     return(
         <div className='pro'>
