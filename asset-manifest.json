@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/miWeb/static/css/main.eea0948c.css",
-    "main.js": "/miWeb/static/js/main.fc3dd2ec.js",
+    "main.js": "/miWeb/static/js/main.280a7e3a.js",
     "static/js/787.6687f50f.chunk.js": "/miWeb/static/js/787.6687f50f.chunk.js",
     "static/media/digitization-g82c7b12d5_1280.jpg": "/miWeb/static/media/digitization-g82c7b12d5_1280.4ed136ba73f8fd463e90.jpg",
     "index.html": "/miWeb/index.html",
     "main.eea0948c.css.map": "/miWeb/static/css/main.eea0948c.css.map",
-    "main.fc3dd2ec.js.map": "/miWeb/static/js/main.fc3dd2ec.js.map",
+    "main.280a7e3a.js.map": "/miWeb/static/js/main.280a7e3a.js.map",
     "787.6687f50f.chunk.js.map": "/miWeb/static/js/787.6687f50f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eea0948c.css",
-    "static/js/main.fc3dd2ec.js"
+    "static/js/main.280a7e3a.js"
   ]
 }
