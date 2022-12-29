@@ -18,5 +18,24 @@
         "Tec": "HTML, CSS, React js, React icons",
         "Des": "En esta pagina registrare mis avances en la programación y mostrare mis proyectos favoritos",
         "Link": "miWeb"
+    },{
+        "Img": "ReactPro",
+        "Pro": "Ejercicios con ReactJS",
+        "Tec": "HTML, CSS, React js, React icons, React router dom",
+        "Des": "Proyectos: Apartado de testimonios, un contador, una calculadora y un generador de tareas",
+        "Link": "ejercicios-con-React"
+    },{
+        "Img": "Captura5",
+        "Pro": "Creador de post (Frontend)",
+        "Tec": "HTML, CSS, React js, React icons, React router dom",
+        "Des": "Una aplicación que te permite registrarte y crear tus propios post puedes marcar tus favoritos",
+        "Link": "GeneradorPostFrontEnd"
+    },
+    {
+        "Img": "Captura5",
+        "Pro": "Creador de post (Backend)",
+        "Tec": "Node.js, Express, MongoDB Atlas, Mongoose, etc.",
+        "Des": "Contiene las operaciónes elementales CRUD. Puede aceptar imagenes y encriptar contraseñas",
+        "Link": "GeneradorPostBackEnd"
     }
 ]

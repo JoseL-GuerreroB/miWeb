@@ -17,42 +17,57 @@
     },{
         "lg": "sass",
         "lgn": "SASS",
-        "lgc": 55,
+        "lgc": 50,
         "enUso": true
     },{
         "lg": "javascript",
         "lgn": "JavaScript",
-        "lgc": 70,
+        "lgc": 85,
         "enUso": true
     },{
         "lg": "reactjs",
         "lgn": "React",
-        "lgc": 70,
+        "lgc": 80,
         "enUso": true
     },{
         "lg": "typescript",
         "lgn": "TypeScript",
-        "lgc": 45,
+        "lgc": 70,
         "enUso": true
     },{
         "lg": "angularjs",
         "lgn": "Angular",
-        "lgc": 55,
+        "lgc": 40,
         "enUso": true
     },{
         "lg": "nodejs",
         "lgn": "NodeJS",
+        "lgc": 75,
+        "enUso": true
+    },{
+        "lg": "express",
+        "lgn": "ExpressJS",
+        "lgc": 80,
+        "enUso": true
+    },{
+        "lg": "nest",
+        "lgn": "NestJS",
         "lgc": 60,
         "enUso": true
     },{
-        "lg": "vuejs",
-        "lgn": "Vue",
-        "lgc": 0,
-        "enUso": false
+        "lg": "python",
+        "lgn": "Python",
+        "lgc": 70,
+        "enUso": true
+    },{
+        "lg": "dj",
+        "lgn": "Django",
+        "lgc": 70,
+        "enUso": true
     },{
         "lg": "php",
         "lgn": "PHP",
-        "lgc": 50,
+        "lgc": 40,
         "enUso": true
     },{
         "lg": "laravel",
@@ -60,19 +75,24 @@
         "lgc": 0,
         "enUso": false
     },{
-        "lg": "symfony",
-        "lgn": "Symfony",
-        "lgc": 0,
-        "enUso": false
+        "lg": "java",
+        "lgn": "Java",
+        "lgc": 30,
+        "enUso": true
+    },{
+        "lg": "c-plus-plus",
+        "lgn": "C++",
+        "lgc": 20,
+        "enUso": true
     },{
         "lg": "mysql",
         "lgn": "MySQL",
-        "lgc": 60,
+        "lgc": 70,
         "enUso": true
     },{
         "lg": "mongodb",
         "lgn": "MongoDB",
-        "lgc": 65,
+        "lgc": 70,
         "enUso": true
     },{
         "lg": "git",
@@ -83,21 +103,6 @@
         "lg": "github",
         "lgn": "GITHUB",
         "lgc": 75,
-        "enUso": true
-    },{
-        "lg": "python",
-        "lgn": "Python",
-        "lgc": 35,
-        "enUso": true
-    },{
-        "lg": "java",
-        "lgn": "Java",
-        "lgc": 30,
-        "enUso": true
-    },{
-        "lg": "c-plus-plus",
-        "lgn": "C++",
-        "lgc": 20,
         "enUso": true
     }
 ]

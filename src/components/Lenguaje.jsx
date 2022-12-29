@@ -1,6 +1,7 @@
 import '../styles/Lenguaje.css';
 export default function Lenguaje(prop){
     var nameImg="/miWeb/img/icons8-"+prop.lg+"-144.png";
+    // var nameImg = "img/icons8-" + prop.lg + "-144.png";
     var barCol= prop.lgc;
     var usoComun=prop.enUso;
     var gris;

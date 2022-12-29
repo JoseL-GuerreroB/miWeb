@@ -4,7 +4,7 @@ import Lenguaje from './components/Lenguaje';
 import Proyectos from './components/Proyectos';
 import lenguajes from './json/lenguajes.json';
 import proyectos from './json/proyectos.json';
-import { FaEnvelope, FaGithub, FaLinkedin, FaFilePdf, FaHome, FaTools, FaProjectDiagram, FaMailBulk } from 'react-icons/fa';
+import { FaEnvelope, FaGithub, FaLinkedin, FaFilePdf, FaHome, FaTools, FaProjectDiagram, FaMailBulk, FaStar } from 'react-icons/fa';
 
 function App() {
   const lenguaje = lenguajes;
@@ -18,24 +18,22 @@ function App() {
           <li><a href="#inicio" className="nav__link"><FaHome className='icoNav' title='Inicio' /> </a></li>
           <li><a href="#tecnologias" className="nav__link"><FaTools className='icoNav' title='Tecnologias'/> </a></li>
           <li><a href="#proyectos" className="nav__link"><FaProjectDiagram className='icoNav' title='Proyectos'/> </a></li>
+          <li><a href="#experiencia" className="nav__link"><FaStar className='icoNav' title='Experiencia laboral'/> </a></li>
           <li><a href="#contacto" className="nav__link"><FaMailBulk className='icoNav' title='Contacto'/> </a></li>
         </ul>
       </header>
       <div id='inicio' className="divPres">
-        <img src="/miWeb/img/foto.jpg" alt="Foto de perfil" />
+        <img src="/miWeb/img/foto2.jpg" alt="Foto de perfil" />
         <p>Hola, mi nombre es:</p>
         <h1>José Luis Guerrero Bautista</h1>
-        <h2>Desarrollador Web</h2>
+        <h2>Desarrollador Web Jr.</h2>
         <p>Me he dedicado a estudiar por mi
           cuenta aprovechando cada
           recurso online referente a la
-          programación, con la esperanza
-          de poder convertir esta habilidad
-          en mi fuente de trabajo.
+          programación, con el fin de mejorar mis habilidades y
+          crecer en esta profesión.
           Actualmente me he
-          especializado en el <span>desarrollo
-            web</span>.
-        </p>
+          especializado en el <span>desarrollo web</span>.</p>
       </div>
       <div id='tecnologias' className="tec">
         <h2>Habilidades</h2>
@@ -56,6 +54,18 @@ function App() {
             );
           })}
         </div> <br /><br />
+      </div>
+      <div id='experiencia'>
+        <h3>Experiencia Laboral</h3>
+        <div id='empresas'>
+          <div>
+            <p><span style={{ borderBottom: "3px solid #015", fontSize: "25px"}}> NAXFRA </span></p>
+            <p><span>Dirección:</span> Cerrada Ceylan no. 541, industrial Vallejo, Ciudad de México</p>
+            <p><span>Puesto:</span> Desarrollador web backend</p>
+            <p><span>Supervisor:</span> José Ernesto Sámano de los Santos. <span>Tel:</span> 5519655087</p>
+            <p><span>Periodo:</span> Del 04 de Julio del 2022 al 21 de Octubre del 2022</p>
+          </div>
+        </div>
       </div>
       <footer id="contacto">
         <h3>Contacto</h3>
